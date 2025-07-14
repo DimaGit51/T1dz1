@@ -15,7 +15,7 @@ import java.util.Random;
 @Service
 public class WeatherProducerService {
 
-    private static final List<String> CITIES = List.of("Москва", "Санкт-Петербург", "Чукотка", "Питер", "Тюмень");
+    private static final List<String> CITIES = List.of("Москва", "Санкт-Петербург", "Чукотка", "Екатеринбург", "Тюмень");
     private static final List<String> CONDITIONS = List.of("солнечно", "облачно", "дождь");
     private final Random random = new Random();
 
